@@ -1,5 +1,15 @@
 *{
     font-family: 'Hind', sans-serif;
+    
+}
+
+.fliter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1 ;
+    opacity: .7;
 }
 
 div img {
@@ -16,16 +26,27 @@ div p {
     flex-direction: row;
     padding: 10px;
     gap: 10px;
+
 }
 .img2{
     display: flex;
     flex-direction: row;
     padding: 10px;
+
 }
-table, th, td {
-    border:1px solid black;
+table{
+    border:2px solid silver;
+    border-radius: 8px;
+    background-color: aliceblue;
     
-  }
+}
+td{
+    color: red;
+}
+
+
+
+
 div .tablee{
     padding-left: 5%;
 }
